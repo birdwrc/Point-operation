@@ -1,0 +1,8 @@
+%%Point operation
+point1 = imread('point.jpg');
+subplot(1,2,1), imshow(point1);
+title('Original');
+%%Auto-contrast
+subplot(1,2,2), imshow(point1);
+imcontrast
+title('Auto-contrast');
